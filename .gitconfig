@@ -1,0 +1,17 @@
+[alias]
+  ap = add -p
+  br = branch
+  ci = commit
+  co = checkout
+  ds = diff --staged
+  dv = difftool -t vimdiff -y
+  dvs = difftool -t vimdiff -y --staged
+  gl = config --global -l
+  lg = log --graph --decorate --all --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(auto)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)'
+  rv = remote -v
+  st = status -sb
+  unstage = reset HEAD --
+[core]
+  editor = vim
+[pull]
+  rebase = true
