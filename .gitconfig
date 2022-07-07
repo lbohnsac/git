@@ -9,9 +9,16 @@
   gl = config --global -l
   lg = log --graph --decorate --all --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(auto)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)'
   rv = remote -v
-  st = status -sb
+  st = status -sb 
   unstage = reset HEAD --
 [core]
-  editor = vim
+  editor = vim 
 [pull]
   rebase = true
+[user]
+  name = User name
+  email = user@domain.tld
+#[http]
+#  proxy = http://proxyUsername:proxyPassword@proxy.server.com:port                                                                                                                                                
+[commit]
+  template = /path/to/.gitcommitmessage
