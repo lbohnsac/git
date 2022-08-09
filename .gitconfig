@@ -18,6 +18,7 @@
 [user]
   name = User name
   email = user@domain.tld
+#  signingkey = AABBCCDDEEFFAABBCCDDEEFFAABBCCDDEEFFAABB
 #[http]
 #  proxy = http://proxyUsername:proxyPassword@proxy.server.com:port                                                                                                                                                
 [commit]
