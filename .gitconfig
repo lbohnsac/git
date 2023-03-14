@@ -11,8 +11,12 @@
   rv = remote -v
   st = status -sb 
   unstage = reset HEAD --
+[commit]
+  template = /path/to/.gitcommitmessage
 [core]
   editor = vim
+#[http]
+#  proxy = http://proxyUsername:proxyPassword@proxy.server.com:port
 [init]
 	defaultBranch = master
 [pull]
@@ -21,7 +25,3 @@
   name = User name
   email = user@domain.tld
 #  signingkey = AABBCCDDEEFFAABBCCDDEEFFAABBCCDDEEFFAABB
-#[http]
-#  proxy = http://proxyUsername:proxyPassword@proxy.server.com:port                                                                                                                                                
-[commit]
-  template = /path/to/.gitcommitmessage
