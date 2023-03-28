@@ -11,6 +11,39 @@
   rv = remote -v
   st = status -sb 
   unstage = reset HEAD --
+#[color]
+#  branch = auto
+#  diff = auto
+#  grep = auto
+#  interactive = auto
+#  status = auto
+[color "branch"]
+  current = green
+  local = normal
+  remote = red 
+  plain = normal
+[color "diff"]
+  plain = normal
+  meta = bold
+  frag = cyan
+  old = red 
+  new = green
+  commit = yellow
+  whitespace = normal red 
+[color "grep"]
+  match = normal
+[color "interactive"]
+  prompt = normal
+  header = normal
+  help = normal
+  error = normal
+[color "status"]
+  header = normal
+  added = red 
+  updated = green
+  changed = red 
+  untracked = red 
+  nobranch = red
 [commit]
   template = /path/to/.gitcommitmessage
 [core]
