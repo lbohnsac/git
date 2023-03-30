@@ -10,7 +10,7 @@
   gl = config --global -l
   lg = log --graph --decorate --all --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(auto)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset) %C(bold dim red)%G?%C(reset)%n''          %C(bold dim green)%GF %GS%C(reset)%n'''
   rv = remote -v
-  st = status -sb 
+  st = status -sb
   unstage = reset HEAD --
 #[color]
 #  branch = auto
@@ -21,16 +21,16 @@
 [color "branch"]
   current = green
   local = normal
-  remote = red 
+  remote = red
   plain = normal
 [color "diff"]
   plain = normal
   meta = bold
   frag = cyan
-  old = red 
+  old = red
   new = green
   commit = yellow
-  whitespace = normal red 
+  whitespace = normal red
 [color "grep"]
   match = normal
 [color "interactive"]
@@ -40,10 +40,10 @@
   error = normal
 [color "status"]
   header = normal
-  added = red 
+  added = red
   updated = green
-  changed = red 
-  untracked = red 
+  changed = red
+  untracked = red
   nobranch = red
 [commit]
   template = /path/to/.gitcommitmessage
