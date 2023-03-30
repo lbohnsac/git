@@ -2,7 +2,7 @@
   ap = add -p
   br = branch
   ci = commit
-  cm = commit -m
+  cm = commit -sm
   co = checkout
   ds = diff --staged
   dv = difftool -t vimdiff -y
