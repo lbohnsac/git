@@ -8,7 +8,7 @@
   dv = difftool -t vimdiff -y
   dvs = difftool -t vimdiff -y --staged
   gl = config --global -l
-  lg = log --graph --decorate --all --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(auto)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)'
+  lg = log --graph --decorate --all --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(auto)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset) %C(bold dim red)%G?%C(reset)%n''          %C(bold dim green)%GF %GS%C(reset)%n'''
   rv = remote -v
   st = status -sb 
   unstage = reset HEAD --
