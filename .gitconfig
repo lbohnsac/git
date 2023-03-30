@@ -6,6 +6,7 @@
   co = checkout
   db = branch -d
   ds = diff --staged
+  dc = diff --cached
   dv = difftool -t vimdiff -y
   dvs = difftool -t vimdiff -y --staged
   gl = config --global -l
