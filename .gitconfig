@@ -4,6 +4,7 @@
   ci = commit
   cm = commit -sm
   co = checkout
+  db = branch -d
   ds = diff --staged
   dv = difftool -t vimdiff -y
   dvs = difftool -t vimdiff -y --staged
