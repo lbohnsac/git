@@ -47,6 +47,7 @@
   nobranch = red
 [commit]
   template = /path/to/.gitcommitmessage
+#  gpgSign = true
 [core]
   editor = vim
   # Set file mode false on Windows systems
