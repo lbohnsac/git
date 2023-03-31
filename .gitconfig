@@ -16,6 +16,7 @@
   rv = remote -v
   st = status -sb
   unstage = reset HEAD --
+  who = shortlog -s --
 #[color]
 #  branch = auto
 #  diff = auto
