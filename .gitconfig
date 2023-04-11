@@ -57,6 +57,10 @@
   editor = vim
   # Set file mode false on Windows systems
   filemode = true
+[gpg]
+# format ssh
+# format x509
+  program = gpg2
 #[http]
 #  proxy = http://proxyUsername:proxyPassword@proxy.server.com:port
 [init]
