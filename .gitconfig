@@ -64,7 +64,7 @@
 #[http]
 #  proxy = http://proxyUsername:proxyPassword@proxy.server.com:port
 [init]
-	defaultBranch = master
+  defaultBranch = master
 [pull]
   rebase = true
 [user]
