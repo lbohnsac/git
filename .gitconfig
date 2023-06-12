@@ -15,6 +15,7 @@
   nb = checkout -b
   rv = remote -v
   st = status -sb
+  trash = !mkdir -p .trash && git ls-files --others --exclude-standard | xargs mv -f -t .trash
   unstage = reset HEAD --
   who = shortlog -s --
 #[color]
