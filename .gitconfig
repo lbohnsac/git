@@ -66,6 +66,8 @@
 #  proxy = http://proxyUsername:proxyPassword@proxy.server.com:port
 [init]
   defaultBranch = master
+[tag]
+  gpgsign = true
 [pull]
   rebase = true
 [user]
