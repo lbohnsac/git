@@ -18,6 +18,7 @@
   trash = !mkdir -p .trash && git ls-files --others --exclude-standard | xargs mv -f -t .trash
   unstage = reset HEAD --
   who = shortlog -s --
+  wd = diff --word-diff
 #[color]
 #  branch = auto
 #  diff = auto
