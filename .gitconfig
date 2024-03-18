@@ -60,9 +60,10 @@
   # Set file mode false on Windows systems
   filemode = true
 [gpg]
-# format ssh
-# format x509
+#  format ssh
+#  format x509
   program = gpg2
+#  program = gpgsm
 [gpg "ssh"]
 #  allowedSignersFile = PATH/TO/ALLOWEDSIGNERSFILE
 #  revocationFile = PATH/TO/REVOCATIONFILE
