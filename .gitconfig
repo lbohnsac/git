@@ -17,6 +17,7 @@
   lg = log --graph --decorate --all --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(auto)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset) %C(bold dim red)%G?%C(reset)%n''          %C(bold dim green)%GK%C(reset) %C(italic dim green)%GS%C(reset)%n'''
   nb = checkout -b
   pr = pull --rbase
+  rh = reset HEAD
   rv = remote -v
   st = status -sb
   trash = !mkdir -p .trash && git ls-files --others --exclude-standard | xargs mv -f -t .trash
