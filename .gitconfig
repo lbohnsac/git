@@ -2,6 +2,7 @@
   aa = add -A
   ap = add -p
   br = branch
+  cdf = clean -df
   ci = commit
   cm = commit -sm
   co = checkout
