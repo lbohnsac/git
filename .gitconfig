@@ -6,6 +6,7 @@
   ci = commit
   cm = commit -sm
   co = checkout
+  cod = checkout .
   db = branch -d
   ds = diff --staged
   dc = diff --cached
