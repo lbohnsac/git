@@ -80,6 +80,8 @@
   gpgsign = true
 [pull]
   rebase = true
+[push]
+  autoSetupRemote = true
 [user]
   name = User name
   email = user@domain.tld
