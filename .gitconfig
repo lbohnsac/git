@@ -1,21 +1,21 @@
 [alias]
   aa = add -A
   ap = add -p
+  bd = branch -d
+  bn = checkout -b
   br = branch
   cdf = clean -df
   ci = commit
   cm = commit -sm
   co = checkout
   cod = checkout .
-  db = branch -d
-  ds = diff --staged
   dc = diff --cached
+  ds = diff --staged
   dv = difftool -t vimdiff -y
   dvc = difftool -t vimdiff -y --cached
   dvs = difftool -t vimdiff -y --staged
   gl = config --global -l
   lg = log --graph --decorate --all --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(auto)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset) %C(bold dim red)%G?%C(reset)%n''          %C(bold dim green)%GK%C(reset) %C(italic dim green)%GS%C(reset)%n'''
-  nb = checkout -b
   pr = pull --rbase
   rh = reset HEAD
   rv = remote -v
