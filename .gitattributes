@@ -1,2 +1,19 @@
-*.sh text eol=lf
-*.md text eol=lf
+###############################
+# Git Line Endings            #
+###############################
+
+# Handle line endings automatically for files detected as text
+# and leave all files detected as binary untouched.
+*               text=auto
+
+#
+# The above will handle all files NOT found below
+#
+
+# Force text files to always use LF line endings
+.gitattributes  text
+.gitignore      text
+*.js            text eol=lf
+*.json          text eol=lf
+*.sh            text eol=lf
+*.md            text eol=lf diff=markdown
