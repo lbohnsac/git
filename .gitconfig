@@ -71,7 +71,7 @@
   untracked = red
   nobranch = red
 [commit]
-  template = /path/to/.gitcommitmessage
+#  template = /path/to/.gitcommitmessage
 #  gpgSign = true
 [core]
   editor = vim
@@ -80,7 +80,7 @@
 [gpg]
 #  format ssh
 #  format x509
-  program = gpg2
+#  program = gpg2
 #  program = gpgsm
 [gpg "ssh"]
 #  allowedSignersFile = PATH/TO/ALLOWEDSIGNERSFILE
@@ -90,10 +90,11 @@
 [init]
   defaultBranch = master
 [tag]
-  gpgsign = true
+#  gpgsign = true
 [pull]
   rebase = true
 [push]
+  # push the current branch and set the remote as upstream automatically every time you push
   autoSetupRemote = true
 [user]
   name = User name
