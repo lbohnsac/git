@@ -37,6 +37,12 @@
   unstage = reset HEAD --
   who = shortlog -s --
   wd = diff --word-diff
+#[credential]
+   # Credentials are stored in ~/.git-credentials after the next successful login
+#  helper = store
+#[credential "<serverFQDN>[:<PORT_IF_NOT_22>]"]
+   # Credentials are read from this file
+#  helper = store --file /PATH/TO/GIT-CREDENTIAL-FILE_<serverFQDN>
 #[color]
 #  branch = auto
 #  diff = auto
