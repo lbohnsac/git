@@ -14,6 +14,7 @@
   dv = difftool -t vimdiff -y
   dvc = difftool -t vimdiff -y --cached
   dvs = difftool -t vimdiff -y --staged
+  dw = diff --word-diff
   gl = config --global -l
   lg = log --graph --decorate --all --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(auto)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset) %C(bold dim red)%G?%C(reset)%n''          %C(bold dim green)%GK%C(reset) %C(italic dim green)%GS%C(reset)%n'''
   pm = pull --merge
@@ -36,7 +37,6 @@
   trash = !mkdir -p .trash && git ls-files --others --exclude-standard | xargs mv -f -t .trash
   unstage = reset HEAD --
   who = shortlog -s --
-  wd = diff --word-diff
 #[credential]
    # Credentials are stored in ~/.git-credentials after the next successful login
 #  helper = store
