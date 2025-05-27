@@ -1,6 +1,8 @@
 [alias]
   aa = add -A
   ap = add -p
+  ba = branch -a
+  bav = branch -av
   bd = branch -d
   bn = checkout -b
   br = branch
