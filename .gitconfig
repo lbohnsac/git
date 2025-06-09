@@ -84,6 +84,7 @@
 [core]
   autocrlf = false
   editor = vim
+  eol = native
   # Set file mode false on Windows systems
   filemode = true
   autocrlf =
