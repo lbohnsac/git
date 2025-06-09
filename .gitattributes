@@ -21,7 +21,7 @@
 .gitignore      text
 *.js            text eol=lf
 *.json          text eol=lf
-*.sh            text eol=lf
+*.sh            text eol=lf diff=bash
 *.md            text eol=lf diff=markdown
 *.html          text eol=lf diff=htmp
 *.py            text eol=lf diff=python
