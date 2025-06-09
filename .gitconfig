@@ -82,9 +82,12 @@
 #  template = /path/to/.gitcommitmessage
 #  gpgSign = true
 [core]
+  autocrlf = false
   editor = vim
   # Set file mode false on Windows systems
   filemode = true
+  autocrlf =
+  eol = lf
 [gpg]
 #  format ssh
 #  format x509
