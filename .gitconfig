@@ -87,6 +87,8 @@
   eol = native
   # Set file mode false on Windows systems
   filemode = true
+  # Works only if autocrlf = true
+  safecrfl = true
 [gpg]
 #  format ssh
 #  format x509
