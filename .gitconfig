@@ -73,11 +73,11 @@
   error = normal
 [color "status"]
   header = normal
-  added = red
-  updated = green
-  changed = red
-  untracked = red
-  nobranch = red
+  added = red bold
+  updated = green bold
+  changed = red bold
+  untracked = red bold
+  nobranch = red bold
 [commit]
 #  template = /path/to/.gitcommitmessage
 #  gpgSign = true
