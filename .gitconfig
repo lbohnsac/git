@@ -54,7 +54,7 @@
 [color "branch"]
   current = green
   local = normal
-  remote = red
+  remote = red bold
   plain = normal
 [color "diff"]
   plain = normal
