@@ -37,9 +37,12 @@
   stp = stash pop
   stpa = stash --patch
   stu = stash --include-untracked
+  deleted = ls-files --exclude-standard -d
+  modified = diff --name-only --diff-filter=M
+  tracked = ls-files --exclude-standard -c
   trash = !mkdir -p .trash && git ls-files --others --exclude-standard | xargs mv -f -t .trash
   unstage = reset HEAD --
-  untracked = ls-files --others --exclude-standard -t
+  untracked = ls-files --others --exclude-standard
   who = shortlog -s --
 #[credential]
    # Credentials are stored in ~/.git-credentials after the next successful login
