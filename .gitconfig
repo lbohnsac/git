@@ -32,6 +32,7 @@
   stc = stash clear
   std = stash drop --
   stl = stash list
+  stm = stash --message
   sts = stash show
   stsp = stash show --patch
   stp = stash pop
