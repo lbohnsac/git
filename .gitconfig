@@ -39,6 +39,7 @@
   stu = stash --include-untracked
   trash = !mkdir -p .trash && git ls-files --others --exclude-standard | xargs mv -f -t .trash
   unstage = reset HEAD --
+  untracked = ls-files --others --exclude-standard -t
   who = shortlog -s --
 #[credential]
    # Credentials are stored in ~/.git-credentials after the next successful login
